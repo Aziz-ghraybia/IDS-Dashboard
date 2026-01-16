@@ -309,7 +309,7 @@ def on_packet(pkt):
 # ===============================
 def sniffing(adapter='Wi-Fi 2'):
     print("[*] Sniffing packets...")
-    packets=sniff(timeout=CAPTURE_TIME, prn=on_packet,iface=adapter)  # Adjust iface as needed
+    packets=sniff(timeout=CAPTURE_TIME, prn=on_packet) #,iface=adapter)  # Adjust iface as needed
     print("[*] Capture finished")
     # Save raw packets log
     raw_rows = []

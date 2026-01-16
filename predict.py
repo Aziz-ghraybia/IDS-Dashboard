@@ -6,7 +6,6 @@ import csv
 import joblib
 import numpy as np
 from sniff import sniffing, RAW_LOG_FILE, CAPTURE_TIME
-import matplotlib.pyplot as plt
 import socket
 
 LOG_FILE = "./Logs/detection_log.csv"
