@@ -68,6 +68,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ### 🔹 Lancement du projet
 python GUI.py
+(Si il n'y a pas un dossier nommee "Logs" il faut le creer avant de launcer le projet)
 
 
 -----------------------------------------------------------------------------------------------------------------------
@@ -144,3 +145,4 @@ pip install -r requirements.txt
 
 ### 🔹 Run the project
 python GUI.py
+(If there is no "Logs" folder it must be created before running the project)
